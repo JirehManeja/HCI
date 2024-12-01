@@ -1,0 +1,14 @@
+.homeitem-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: var(--font);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: var(--box-shadow);
+    background-color: white;
+}
+
+.home-name-label, .municipal-city-label, .barangay-label, .role-label {
+    width: 213px;
+}

@@ -1,0 +1,8 @@
+body {
+    background: var(--bg-color);
+}
+
+.home-creation-container {
+    height: 100vh;
+    background-color: transparent;
+}

@@ -3,7 +3,7 @@
 }
 
 .lh-wrapper {
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adds shadow */
+    box-shadow: var(--box-shadow);
 }
 
 .lh-container {

@@ -23,7 +23,7 @@
     gap: 6px;
 }
 
-.title {
+.signup-title {
     font-weight: bold;
     color: var(--font-color);
     font-family: var(--font);

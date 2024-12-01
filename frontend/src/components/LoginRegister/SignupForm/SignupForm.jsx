@@ -1,12 +1,12 @@
 import './SignupForm.css'
-import Input from '../../Input/input'
+import Input from '../../Input/Input'
 import Button from '../../Button/Button'
 
 function SignupForm() {
     return(
         <div className="signup-container">
             <form action="#" className="form">
-                <span className="title">Create Account</span>
+                <span className="signup-title">Create Account</span>
                 <div className="fullname">
                     <Input type="text" placeholder="Last Name"/>
                     <Input type="text" placeholder="First Name"/>

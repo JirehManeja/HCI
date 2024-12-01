@@ -1,0 +1,34 @@
+.homes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 120px auto 120px;
+    height: auto;
+}
+
+.col-labels {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: var(--font);
+    padding: 20px;
+    width: 100%;
+    background-color: transparent;
+}
+
+.homeitems-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.col-homename, .col-municipal-city, .col-barangay, .col-role {
+    width: 213px;
+}
+
+.col-actions {
+    width: 213px;
+    padding-left: 80px;
+}
