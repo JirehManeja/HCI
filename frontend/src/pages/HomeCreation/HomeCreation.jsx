@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './HomeCreation.css';
-import Header from '../../components/Header/Header';
+import Header from '../../components/HomeCreation/Header/Header';
 import HomeRegistrationForm from '../../components/HomeCreation/HomeRegistrationForm/HomeRegistrationForm';
 import Homes from '../../components/HomeCreation/Homes/Homes'; // Import the Homes component
 

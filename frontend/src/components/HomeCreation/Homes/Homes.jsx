@@ -14,13 +14,6 @@ function Homes() {
 
             <div className="homeitems-container">
                 <HomeItem/>
-                <HomeItem/>
-                <HomeItem/>
-                <HomeItem/>
-                <HomeItem/>
-                <HomeItem/>
-                <HomeItem/>
-                <HomeItem/>
             </div>
         </div>
     )

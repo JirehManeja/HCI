@@ -1,9 +1,9 @@
 import './Header.css';
-import Logo from '../Logo/Logo';
-import Searchbar from '../Searchbar/Searchbar';
-import NavButtons from '../NavButtons/NavButtons';
+import Logo from '../../Logo/Logo';
+import Searchbar from '../../Searchbar/Searchbar';
+import NavButtons from '../../NavButtons/NavButtons';
 
-function Header({ onButtonClick, showSearchbar, isHomesActive }) {
+function Header({ onButtonClick, showSearchbar }) {
     return (
         <div className="header-wrapper">
             <div className="header-container">

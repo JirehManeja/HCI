@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import "./NavButtons.css";
 
-const NavButtons = ({ buttons = [], onClick = () => {} }) => {
-    const [activeButton, setActiveButton] = useState(buttons[0] || null);
+const NavButtons = ({ buttons = [], onClick = () => {}, activeButton }) => {
+    const [activeButtonState, setActiveButtonState] = useState(activeButton || buttons[0] || null);
 
     const handleClick = (buttonName) => {
-        setActiveButton(buttonName);
+        setActiveButtonState(buttonName);
         if (typeof onClick === "function") {
             onClick(buttonName);
         }
@@ -20,11 +20,11 @@ const NavButtons = ({ buttons = [], onClick = () => {} }) => {
             {buttons.map((buttonName, index) => (
                 <button
                     key={index}
-                    className={`nav-button ${activeButton === buttonName ? "active" : ""}`}
+                    className={`nav-button ${activeButtonState === buttonName ? "active" : ""}`}
                     onClick={() => handleClick(buttonName)}
                 >
                     {buttonName}
-                    {activeButton === buttonName && <div className="underline" />}
+                    {activeButtonState === buttonName && <div className="underline" />}
                 </button>
             ))}
         </div>

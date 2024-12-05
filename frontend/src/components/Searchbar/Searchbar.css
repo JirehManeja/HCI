@@ -1,3 +1,4 @@
+/* src/components/Searchbar/Searchbar.css */
 .searchbar-container {
     width: max-content;
     height: 40px;
@@ -7,8 +8,9 @@
     border-radius: 15px;
     font-size: 12px;
     background: #f6f6f6;
-    box-shadow: var(--box-shadow);
+    /* box-shadow: var(--box-shadow); */
     transition: background 0.25s;
+    border: 0.5px solid #3C3D37; /* Add a border */
 }
 
 .search-input {
@@ -22,7 +24,7 @@
 }
 
 .search-input::placeholder, .icon {
-    color: rgba( 0, 0, 0, 0.25);
+    color: rgba(0, 0, 0, 0.25);
 }
 
 .icon {

@@ -1,0 +1,95 @@
+/* Sidebar container */
+.sidebar {
+    font-family: var(--font);
+    width: 300px;
+    height: 748px;
+    background-color: white;
+    border-right: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    transition: width 0.3s ease;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+  
+.sidebar.collapsed {
+    width: 85px;
+    border-radius: 10px;
+}
+  
+/* Logo section */
+.logo-container-sb {
+    display: flex;
+    align-items: center;
+    padding: 12.5px;
+    width: 282px;
+    height: 60px;
+    gap: 10px;
+}
+
+.logo-icon {
+    width: 40px;
+    height: 50px;
+}
+
+.logo-spans {
+    font-size: 24px;
+    font-weight: 500;
+}
+  
+.overview-icon, .presets-icon, .devices-icon, .members-icon, .hide-icon {
+    width: 25px;
+    height: 25px;
+}
+  
+/* Menu section */
+.menu {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 15px;
+    margin-top: 150px;
+}
+  
+.menu-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+  
+.menu-item:hover {
+    background-color: #5D7970;
+    color: white;
+    border-radius: 8px;
+}
+  
+.menu-item.active {
+    background-color: #00704C;
+    color: white;
+    border-radius: 8px;
+}
+  
+/* Change image color on active and hover */
+.menu-item.active img,
+.menu-item:hover img {
+    filter: brightness(0) invert(1); /* Change image color to white */
+}
+  
+/* Toggle section */
+.toggle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    cursor: pointer;
+}
+  
+.sidebar.collapsed .spans,
+.sidebar.collapsed .logo-spans{
+    display: none;
+}
