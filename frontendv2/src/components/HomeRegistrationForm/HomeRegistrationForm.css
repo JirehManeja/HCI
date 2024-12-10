@@ -4,11 +4,11 @@
     background-color: var(--white-30);
     border-radius: 20px;
     padding: 20px;
-    gap: 28px;
-    width: 100%;
+    gap: 10px;
+    width: 60%;
     justify-content: center;
     font-family: var(--font);
-    margin: 20px 0;
+    margin: 20px auto;
     box-shadow: var(--box-shadow);
 }
 
@@ -41,7 +41,7 @@
 .hrf-register-form {
     display: flex;
     flex-direction: column;
-    padding: 20px 0;
+    padding-bottom: 20px;
     gap: 10px;
     border-bottom: 1px solid var(--grey-stroke);
 }
@@ -81,15 +81,17 @@
 }
 
 .empty-ragud {
-    width: 50%;
+    width: 348px;
+    margin-left: auto;
 }
 
 .input-container-ragud {
     display: flex;
+    flex-direction: column;
     width: 50%;
     height: 100%;
-    padding: 10px 20px;
-    gap: 10px;
+    padding: 0 20px 10px 20px;
+    gap: 20px;
 }
 
 .hrf-button-container {

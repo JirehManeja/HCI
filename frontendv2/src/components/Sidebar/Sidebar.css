@@ -11,6 +11,7 @@
     border-radius: 8px;
     gap: 20px;
     box-shadow: var(--box-shadow);
+    flex-grow: 1;
 }
 
 .sidebar.collapsed {

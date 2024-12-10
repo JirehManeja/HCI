@@ -1,23 +1,26 @@
-import React, { useState } from 'react';
-import './Switch.css';
+// ToggleSwitch.jsx
+import React, { useState } from "react";
+import "./Switch.css";
 
-const Switch = () => {
-    const [isActive, setIsActive] = useState(false);
+const Switch = ({ bgColor = "white" }) => {
+  const [isOn, setIsOn] = useState(false);
 
-    const toggleSwitch = () => {
-        setIsActive(!isActive);
-    };
+  const toggleSwitch = () => {
+    setIsOn(!isOn);
+  };
 
-    return (
-        <div
-            className="switch-container"
-            onClick={toggleSwitch}
-            role="switch"
-            aria-checked={isActive}
-        >
-            <div className={`switch-button ${isActive ? 'active' : ''}`} />
-        </div>
-    );
+  return (
+    <div
+      className="switch"
+      style={{ backgroundColor: bgColor }}
+      onClick={toggleSwitch}
+    >
+      <div
+        className={`switch-handle ${isOn ? "switch-on" : "switch-off"}`}
+        style={{ backgroundColor: isOn ? "#6EB45C" : "#F97979" }}
+      ></div>
+    </div>
+  );
 };
 
 export default Switch;
