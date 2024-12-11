@@ -15,7 +15,7 @@ function Profile() {
                 </div>
 
                 <div className="components-section-profile">
-                    rawr
+                    
                 </div>
             </div>
         </div>

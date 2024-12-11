@@ -1,7 +1,6 @@
-import Button from '../../components/Button/Button'
+import AllPresetsContainer from '../../components/AllPresetsContainer/AllPresetsContainer'
 import DashboardHeader from '../../components/DashboardHeader/DashboardHeader'
 import Sidebar from '../../components/Sidebar/Sidebar'
-import Searchbar from '../../components/Searchbar/Searchbar'
 import './Presets.css'
 
 function Presets() {
@@ -16,13 +15,8 @@ function Presets() {
                     <DashboardHeader buttonNames={['All Presets', 'Create Preset']} />
                 </div>
 
-                <div className="create-search-section">
-                    <Button buttonName={'Create Preset'} bgColor='#013A71' textColor='white' />
-                    <Searchbar placehold={'Search'} />
-                </div>
-
                 <div className="components-section-presets">
-
+                    <AllPresetsContainer/>
                 </div>
             </div>
         </div>

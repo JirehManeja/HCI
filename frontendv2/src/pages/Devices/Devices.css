@@ -1,18 +1,13 @@
-.profile-wrapper {
+.devices-page-wrapper {
     display: flex;
     gap: 10px;
     padding: 10px;
     height: 100vh;
 }
 
-.content-section-profile {
+.content-section-devices {
     display: flex;
     flex-direction: column;
     gap: 10px;
     width: 100%;
-}
-
-.components-section-profile {
-    display: flex;
-    height: 100%;
 }

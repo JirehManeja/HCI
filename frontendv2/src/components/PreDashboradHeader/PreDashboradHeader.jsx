@@ -1,6 +1,7 @@
 import LogoText from '../LogoText/LogoText'
 import './PreDashboradHeader.css'
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
 
 function PreDashboradHeader({ onButtonClick }) {
     const [activeButton, setActiveButton] = useState("home");
@@ -24,9 +25,9 @@ function PreDashboradHeader({ onButtonClick }) {
                 </button>
             </div>
 
-            <div className="profile-pic">
+            <Link to="/profile" className="profile-pic">
                 <img src="./src/assets/pelayow.png" alt="" className="profile-img" />
-            </div>
+            </Link>
         </div>
     )
 }

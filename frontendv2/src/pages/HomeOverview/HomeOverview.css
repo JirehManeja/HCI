@@ -1,8 +1,8 @@
 .homeoverview-wrapper {
     padding: 10px;
-    background: var(--white-60);
     display: flex;
     gap: 10px;
+    height: 100vh;
 }
 
 .content-section-ho {

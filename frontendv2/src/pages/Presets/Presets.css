@@ -2,6 +2,7 @@
     display: flex;
     gap: 10px;
     padding: 10px;
+    height: 100vh;
 }
 
 .content-section-presets {
@@ -9,14 +10,6 @@
     flex-direction: column;
     gap: 10px;
     width: 100%;
-}
-
-.create-search-section {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 20px;
-    padding: 8px;
 }
 
 .components-section-presets {

@@ -1,5 +1,6 @@
 import DashboardTabs from '../DashboardTabs/DashboardTabs'
 import './DashboardHeader.css'
+import { Link } from 'react-router-dom'
 
 function DashboardHeader({ buttonNames }) {
     return(
@@ -11,9 +12,9 @@ function DashboardHeader({ buttonNames }) {
                     <div className="bell-icon">
                         <img src="./src/assets/bell.png" alt="" className="dash-bell" />
                     </div>
-                    <div className="dash-profile-icon">
+                    <Link to="/profile" className="dash-profile-icon">
                         <img src="./src/assets/pelayow.png" alt="" className="dash-profile" />
-                    </div>
+                    </Link>
                 </div>
             </div>
         </div>

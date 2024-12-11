@@ -26,7 +26,7 @@ const Sidebar = () => {
         return "members";
       case '/devices':
         return "devices";
-      case '/account-details':
+      case '/profile':
         return null; // No active state for this route
       default:
         return "overview"; // Default active item

@@ -7,7 +7,8 @@ import HomeOverview from './pages/HomeOverview/HomeOverview'
 import Presets from './pages/Presets/Presets'
 import Members from './pages/Members/Members'
 import Profile from './pages/Profile/Profile'
-import DevicesListItem from './components/DevicesListItem/DevicesListItem'
+import AllPresetsContainer from './components/AllPresetsContainer/AllPresetsContainer'
+import Devices from './pages/Devices/Devices'
 
 function App() {
     return (
@@ -20,7 +21,8 @@ function App() {
                 <Route path="/presets" element={<Presets />} />
                 <Route path="/members" element={<Members />} />
                 <Route path="/profile" element={<Profile />} />
-                <Route path="/test" element={<DevicesListItem />} />
+                <Route path="/devices" element={<Devices />} />
+                <Route path="/test" element={<AllPresetsContainer/>} />
             </Routes>
         </Router>
     )
